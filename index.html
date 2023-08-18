@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Temat: Sposoby przedstawiania algorytmów.</h1>
+    <h2>Maciej Zuba</h2>
+  </br>
+  <center><h2>Czym jest algorytm?</h2></center>
+  <p>Algorytm to uporządkowany i uściślony sposób rozwiązania danego problemu, zawierający szczegółowy opis wykonywanych czynności w skończonej liczbie kroków. A mówiąc prościej, to działania, które krok po kroku należy podjąć, aby rozwiązać jakiś problem.</p>
+  <p>Kiedy mierzymy się z problemem, musimy zastanowić się nad tym w jaki sposób ów problem rozwiązać oraz jakich narzędzi do tego użyć. Jeśli chcemy, na przykład, ugotować zupę, nie obejdziemy się raczej bez garnka i odpowiednich składników.</p>
+  <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/1.jpg" alt="schemat1"></center>
+  <p>Wszędzie tam, gdzie stosujemy algorytm, wyróżniamy dane i wyniki. Zależność danych od wyników nazywamy <strong>specyfikacją</strong> problemu. Spójrzmy, na przykład, w jaki sposób obliczamy pole prostokąta:</p>
+  <p>Specyfikacja problemu:</p>
+  <p>Dane:</p>
+  <p>A – dłuższy bok prostokąta, liczba rzeczywista dodatnia</p>
+  <p>B – krótszy bok prostokąta, liczba rzeczywista dodatnia</p>
+</br>
+    <p>Wynik:</p>
+    <p>P – pole prostokąta</p>
+    <h3>Jakie kroki należy podjąć, aby uzyskać wartość P mając do dyspozycji wartości A i B?</h3>
+    <p>Aby algorytm można było uznać za poprawny, powinien być on przede wszystkim jednoznaczny i dostatecznie szczegółowy. Popatrz na przykład poniżej.</p>
+    <br/>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/2.jpg" alt="smile"></center>
+    <br/>
+    <p>Niejasne instrukcje mogą prowadzić do niepoprawnych wyników. Załóżmy, że chcemy narysować uśmiechniętą „buźkę”. Próbujemy zbudować w tym celu odpowiedni algorytm. Zgodnie z naszym algorytmem, należy narysować żółte koło, krzywą oraz dwa mniejsze, czarne koła. Algorytm ten nie jest jednak dość precyzyjny. Nie wiemy bowiem, w jaki sposób poszczególne elementy mają być wobec siebie umiejscowione. Końcowy efekt może się zatem różnić od oczekiwanego.</p>
+    <center><h2>Algorytmy w życiu codziennym</h2></center>
+    <p>Choć na co dzień nie używamy często słowa algorytm, jednak algorytmy są nieodłącznym elementem naszego życia. Zagotowanie wody na herbatę, uszycie ciepłego swetra na drutach, złożenie szafki z części – te wszystkie czynności wymagają od nas stosowania algorytmów. Składając szafkę z części, algorytm jej złożenia poznamy dzięki dołączonej instrukcji.</p>
+    <h3>Zastanów się, jakie jeszcze, znane Ci z życia sytuacje, wymagają stosowania algorytmów? Z jakich kroków algorytmy te się składają?</h3>
+</br>
+    <center><h2>Etapy rozwiązywania problemów. Jak stworzyć algorytm?</h2></center>
+    <p>W procesie rozwiązywania dowolnego zadania wyróżnić można kilka etapów:</p>
+    <ul>
+        <li>Sformułowanie zadania</li>
+        <li>Określenie danych wejściowych</li>
+        <li>Ustalenie celu, czyli wyniku</li>
+        <li>Określenie metody rozwiązania, czyli wybór algorytmu</li>
+        <li>Przedstawienie algorytmu w wybranej postaci</li>
+        <li>Analiza poprawności rozwiązania</li>
+        <li>Testowanie rozwiązania dla różnych danych – ocena efektywności przyjętej metody</li>
+    </ul>
+    <h3>Zastanów się, które z powyższych punktów stanowią specyfikację zadania?</h3>
+    <br/>
+    <center><h2>Sposoby przedstawiania algorytmów</h2></center>
+    <p>Algorytmy przedstawia się najczęściej na jeden z czterech sposobów: w postaci listy kroków, w postaci schematu blokowego, w postaci pseudokodu, w postaci kodu w wybranym języku programowania.</p>
+    <p>Algorytm gotowania jajka na miękko zapisany w postaci listy kroków mógłby wyglądać np. tak:</p>
+    <ol>
+        <li>Wlać do garnka zimną wodę</li>
+        <li>Zapalić gaz</li>
+        <li>Gotować wodę do wrzenia</li>
+        <li>Włożyć jajko</li>
+        <li>Odczekać trzy minuty</li>
+        <li>Zgasić gaz</li>
+        <li>Wyjąć jajko</li>
+    </ol></br>
+    <p>Algorytm na obliczanie pola powierzchni trójkąta o podstawie a i wysokości h wyglądałby następująco:</p>
+    <ol>
+        <li>Zacznij algorytm</li>
+        <li>Wprowadź wartości liczb a i h</li>
+        <li>Zmiennej P przypisz wartość wyrażenia P = 1/2 * a * h</li>
+        <li>Wyprowadź wynik P</li>
+        <li>Zakończ algorytm</li>
+    </ol>
+    <p>Algorytmy można także przedstawiać w postaci schematu blokowego. Oto bloki, z których możemy korzystać tworząc schematy blokowe:</p>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/3.jpg" alt="start"></center>
+    <p>Blok z napisem „start” rozpoczyna algorytm. Blok z napisem „stop” go kończy. W schemacie może być tylko jeden blok „start”. Może być natomiast wiele bloków „stop”.</p>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/4.jpg" alt="stop"></center>
+    <p>Blok operacyjny, w którym wykonywane są różne operacje i obliczenia. Ma jedno połączenie wychodzące i jedno wchodzące.</p>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/5.jpg" alt="stop"></center>
+    <p>Blok warunkowy. Wchodzi do niego jedno połączenie, a wychodzą dwa: jedno z napisem „tak”, gdy warunek jest spełniony. Jedno z napisem „nie”, gdy warunek nie jest spełniony.</p>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/6.jpg" alt="stop"></center>
+    <p>Blok wprowadzania i wyprowadzania informacji. Jest równoległobokiem, w którym umieszcza się dane lub wyniki.</p>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/7.JPG" alt="stop"></center>
+    <p>Tak wygląda schemat blokowy algorytmu obliczania powierzchni trójkąta.</p>
+    <p>Omawiany algorytm wyznaczania pola powierzchni trójkąta można również przedstawić w pseudokodzie oraz w konkretnym, wybranym języku programowania. Pseudokod to uproszczona forma zapisu algorytmów, która jest łatwiejsza do zrozumienia od formalnych języków programowania, takich jak np. C++, JavaScript czy Python. Pseudokod ułatwia komunikację między osobami używającymi różnych języków programowania. W przeciwieństwie do schematu blokowego, nie przyjmuje formy graficznej, lecz tekstową. Pseudokod algorytmu na pole trójkąta:</p>
+    <br/>
+    <p>START</p>
+    <p>Wprowadź długość podstawy (a)</p>
+    <p>Wprowadź wysokość (h)</p>
+    <p>Oblicz pole powierzchni trójkąta: P = (a * h) / 2</p>
+    <p>Wyświetl "Pole powierzchni trójkąta:", P</p>
+    <p>STOP</p>
+    <br/>
+    <p>Algorytmy mogą być również formułowane w językach programowania. Oczywiście, warunkiem ich zrozumienia staje się w takim przypadku znajomość danego języka. Kod naszego algorytmu w języku C++ wyglądałby tak:</p>
+    <br/>
+    <center><img src="https://raw.githubusercontent.com/jemmakaron1/algorytmy/main/8.JPG" alt="stop"></center>
+    <h3>Zadanie 1: narysuj w zeszycie schemat blokowy algorytmu na wyznaczanie objętości prostopadłościanu. </h3>
+    <h3>Zadanie 2: uzyskany schemat przedstaw w programie Paint lub w edytorze Smartdraw. </h3>
+</body>
+</html>
